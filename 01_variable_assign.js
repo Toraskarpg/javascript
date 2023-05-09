@@ -2,7 +2,7 @@ var myFullName;                          //Declare variable
 console.log(myFullName);                 
  myFullName="Pratiksha Toraskar";        //Assign value to variable
 console.log(myFullName);              
-myFullName = "Pratiksha Ganesh Toraskar"; //updatevariable value
+myFullName = "Pratiksha Ganesh Toraskar"; //update variable value
 console.log(myFullName);
 var myLove;
 //console.log(myLove);
