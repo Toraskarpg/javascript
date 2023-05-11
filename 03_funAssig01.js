@@ -28,25 +28,34 @@ var lastName = "Toraskar";
 var cityName = "Pune";
 function personalDetails(firstVariable, lastVariable, cityVariable) { //Argument variable
 
-    console.log("My First Name is--> ", firstVariable, lastVariable, cityVariable);
+    console.log("My Details is--> ", firstVariable, lastVariable, cityVariable);
 
 }
-
 personalDetails(firstName, lastName, cityName);
 line();
 
 var cricketerName = "Virat";
 var wifeName = "Anushka";
 function swapValuesDude(hubby, wife) {
-    console.log("before swapping values are--> ", cricketerName, wifeName);
-    var tempVariable = hubby;
+    console.log("before swapping values are--> ", hubby, wife);
+    temp = hubby;
     hubby= wife;
-    wife = tempvariable;
+    wife = temp;
     console.log("After swapping values are--> ",  hubby, wife);
+
 }
-swapValuesDude(criketerName,wifeName);
+swapValuesDude(cricketerName, wifeName);
+swapValuesDude(1000, 2000);
+line();
 
 
-
-
-
+var a= 10.23;
+var b= 600;
+var c= 40;
+function addThreeValues(a, b, c){
+    var add = null;
+    add = a + b + c;
+    console.log("addition of three numbers-->", add);
+}
+addThreeValues(10.23, 600, 40);
+addThreeValues("Hello","Good","Morning");
