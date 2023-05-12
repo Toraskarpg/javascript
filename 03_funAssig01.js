@@ -5,8 +5,6 @@ function line() {
     console.log(star);
 }
 
-
-
 function myFunction() {
 
     console.log("Message is-->", msg);
@@ -59,6 +57,7 @@ function addThreeValues(a, b, c){
 }
 addThreeValues(10.23, 600, 40);
 addThreeValues("Hello","Good","Morning");
+console.log("-------------------------------------------");
 
 function addition(num1, num2) {
     var result  = num1 + num2;// result = 300

@@ -1,7 +1,3 @@
-var greet= "Good Mornign";
-var greetLength= greet.length;
-console.log("Total number of character in given string is ", greetLength);
-
 var greet = "Good Morning";
 var greetLength = greet.length;
 console.log("Total number of character in given string is: ", greetLength);
