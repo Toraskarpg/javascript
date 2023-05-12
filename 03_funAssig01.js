@@ -59,3 +59,10 @@ function addThreeValues(a, b, c){
 }
 addThreeValues(10.23, 600, 40);
 addThreeValues("Hello","Good","Morning");
+
+function addition(num1, num2) {
+    var result  = num1 + num2;// result = 300
+    return result;
+}
+var returnValue = addition(100, 200);
+console.log("Addition of number is: ", returnValue);
