@@ -44,6 +44,7 @@ function swapValuesDude(hubby, wife) {
 }
 swapValuesDude(cricketerName, wifeName);
 swapValuesDude(1000, 2000);
+swapValuesDude(4,5);
 line();
 
 
