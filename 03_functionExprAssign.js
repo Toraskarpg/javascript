@@ -54,7 +54,9 @@ var stringFun = function(){
 
     var squareofword = square.length;
     console.log(`square of the total no of word is--> ${squareofword*squareofword}`);
+    
 }
+
 stringFun();
     
     
