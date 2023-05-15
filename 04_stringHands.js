@@ -37,7 +37,7 @@ function stringHandsOn(){
     console.log("------------------------------------------");
 
     var substringOfString = trimString.substring(22, 30);
-    console.log("String using slice is--> ",sliceOfString);
+    console.log("String using substring is--> ",sliceOfString);
     console.log("------------------------------------------");
 
     var stringEndWith = trimString.endsWith("up");
