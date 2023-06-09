@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Local Storage</title>
+</head>
+<body>
+    <h2> Local Storage </h2>
+    <script>
+        window.localStorage.setItem("name", "Pratiksha Ganesh Toraskar");
+        window.localStorage.setItem("city", "Pune");
+        window.localStorage.setItem("pin", "411028");
+        window.localStorage.setItem("district", "Haveli");
+
+        // Remove Item
+        // window.localStorage.removeItem("city");
+
+        //Get Item
+        const nameItem = window.localStorage.getItem("name");
+        console.log(nameItem);
+
+    </script>
+    
+</body>
+</html>
