@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1>My Profile Details</h1>
+        <h2 class="techStack">Technology Stack</h2>
+    </div>
+
+    <div>
+        <ul class="list">
+            <li>HTML and CSS</li>
+            <li id="listItem">Agile and Jira</li>
+            <li>Angular Or React</li>
+            <li>Oracle Database</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>My Hobbies</h2>
+        <a href="https://www.mozilla.org/en-US/firefox/new/" class="profileLink">My Profile</a>
+        <h3>Project Description</h3>
+    </div>
+
+
+    <script>
+        // change main heading text to orange colour
+        const mainHeading = document.querySelector("h1");
+        mainHeading.style.color = 'orange';
+ 
+        //    technology stack in red colour
+        const elementTechStack = document.querySelector('.techStack');
+        elementTechStack.style.color = 'red';
+
+        //  remove child Agile and Jira
+        const parentList = document.querySelector('.list');
+        const removeListItem = document.querySelector('#listItem');
+        parentList.removeChild(removeListItem);
+
+        //  set the attribute
+        const elementAttribute = document.querySelector('.profileLink');
+        elementAttribute.setAttribute('href', 'https://www.youtube.com/');
+
+
+
+
+    </script>
+
+</body>
+
+</html>
