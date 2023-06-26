@@ -1,4 +1,4 @@
-function gradeCalculation(marks){
+function  gradeCalculation(marks){
 
     if (marks==undefined || isNaN(marks) || marks<=0 || marks>100) { // undefined, null
         console.log(`Invalid marks: ${marks}`);
@@ -34,6 +34,7 @@ function gradeCalculation(marks){
 
 
 gradeCalculation("98");
+gradeCalculation("48");
 gradeCalculation("80");
 gradeCalculation("90");
 gradeCalculation("0");
