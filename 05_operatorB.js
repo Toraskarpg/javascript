@@ -30,6 +30,7 @@ var wordLength = function(argument){
     console.log(`lenth of word is--> ${lengthOfArgument}`);
     var result = lengthOfArgument%2 == 0?  `Even` : `Odd`;
     return result;
+    
 }
 var result = wordLength("Javascript");
 console.log(result);

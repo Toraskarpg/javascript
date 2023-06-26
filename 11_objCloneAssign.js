@@ -29,7 +29,7 @@ console.log("");
 
 console.log("------------------------------Location Details------------------------------------------");
 console.log("");
-console.table(bankLocation);
+console.table(bankLocation);''
 
 // -----------------clonning of bankSbi and Location------------------
 let newClone = Object.assign({ } , bankSbi, bankLocation);
